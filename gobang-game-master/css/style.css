@@ -1,0 +1,66 @@
+body{
+	min-width: 600px;
+}
+
+
+canvas{
+	display:block;
+	margin:50px auto;
+	box-shadow:-2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+	margin-bottom: 150px;
+	z-index: 2;
+	position: relative;
+}
+
+.game-title{
+	text-align: center;
+	margin-top: 150px;
+}
+
+header{
+	background-color: #f3f8f9;
+}
+
+#result-box{
+	width: 65%;
+	height: 140px;
+	background-color: #f3f8f9;
+	z-index: 1;
+	margin-top: -500px;
+	margin-bottom: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+	border-radius: 22px;
+	text-align: center;
+}
+
+#result-box h3{
+	padding-top: 30px;
+}
+
+#result-box a{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.play-option{
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+}
+
+@media(max-width: 768px){
+	.sf-menu{
+		display: none;
+	}
+
+	#fh5co-logo h2{
+		margin-top: 3px;
+		margin-bottom: auto;
+	}
+
+	.game-title{
+		margin-top: 80px;
+	}
+}
